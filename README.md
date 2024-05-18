@@ -29,7 +29,7 @@ To run this virtual keyboard project locally, follow these steps:
 
 - Click on the keys of the virtual keyboard to input characters into the text area.
 - Toggle night mode for a darker interface suitable for low-light environments.
-- Use the color switcher to select from a variety of color themes.
+- Use the color switcher to select from a variety of color themes. 
 
 ## Contributing
 
