@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Virtual Keyboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <link rel="stylesheet" href="./project.css">
+      
+  </head>
+  
+  <body>
+    <div class="dropdown">
+      <button class="dropbtn">More</button>
+      <div class="dropdown-content">
+        <a href="./about.html">About</a>
+        <a href="###">Home Page</a>
+        <div onclick="nightmode()">Night Mode</div>
+        <div class="color-switcher">
+          <div class="switcher-button">
+            <i class="fas fa-cog"></i>
+          </div>
+          <div class="themes">
+            <span class="theme-button" data-color="#ffffff" style="background: #ffffff;"></span>
+            <span class="theme-button" data-color="#64e17d" style="background: #64e17d;"></span>
+            <span class="theme-button" data-color="#e97d56" style="background: #e97d56;"></span>
+            <span class="theme-button" data-color="#53f8cc" style="background: #53f8cc;"></span>
+            <span class="theme-button" data-color="#bd50eb" style="background: #bd50eb;"></span>
+            <span class="theme-button" data-color="#f77cd0" style="background: #f77cd0;"></span>
+            <span class="theme-button" data-color="#ecc653" style="background: #ecc653;"></span>
+            <span class="theme-button" data-color="#26bee3" style="background: #26bee3;"></span>
+            <span class="theme-button" data-color="#ee7272" style="background: #ee7272;"></span>
+            <span class="theme-button" data-color="#000000" style="background: #000000;"></span>
+          </div>
+        </div>
+        <a></a>
+      </div>
+    </div>
+  
+  </div>
+    <h1 class="headline">Virtual Keyboard FEE 1 Project</h1>
+    
+    
+    <form>
+      <textarea id="area" placeholder="Enter Your Text Here" name="display"></textarea>
+        
+    
+    <div class="keyboard" id="keyboard">
+      <div class="onboard">
+        <input type="button" id="slightwide1" class="slightwide ccolor" value="1" onclick="display.value +='1'; play() ">
+        <input type="button" id="slightwide2" class="slightwide ccolor" value="2" onclick="display.value +='2'; play() ">
+        <input type="button" id="slightwide3" class="slightwide ccolor" value="3" onclick="display.value +='3'; play() ">
+        <input type="button" id="slightwide4" class="slightwide ccolor" value="4" onclick="display.value +='4'; play() ">
+        <input type="button" id="slightwide5" class="slightwide ccolor" value="5" onclick="display.value +='5'; play() ">
+        <input type="button" id="slightwide6" class="slightwide ccolor" value="6" onclick="display.value +='6'; play() ">
+        <input type="button" id="slightwide7" class="slightwide ccolor" value="7" onclick="display.value +='7'; play() ">
+        <input type="button" id="slightwide8" class="slightwide ccolor" value="8" onclick="display.value +='8'; play() ">
+        <input type="button" id="slightwide9" class="slightwide ccolor" value="9" onclick="display.value +='9'; play() ">
+        <input type="button" id="slightwide0" class="slightwide ccolor" value="0" onclick="display.value +='0'; play() "><br>
+        <input type="button" id="alphabetq" class="keys ccolor" value="Q" onclick="display.value +='Q'; play() ">
+        <input type="button" id="alphabetw" class="keys ccolor" value="W" onclick="display.value +='W'; play() ">
+        <input type="button" id="alphabete" class="keys ccolor" value="E" onclick="display.value +='E'; play() ">
+        <input type="button" id="alphabetr" class="keys ccolor" value="R" onclick="display.value +='R'; play() ">
+        <input type="button" id="alphabett" class="keys ccolor" value="T" onclick="display.value +='T'; play() ">
+        <input type="button" id="alphabety" class="keys ccolor" value="Y" onclick="display.value +='Y'; play() ">
+        <input type="button" id="alphabetu" class="keys ccolor" value="U" onclick="display.value +='U'; play() ">
+        <input type="button" id="alphabeti" class="keys ccolor" value="I" onclick="display.value +='I'; play() ">
+        <input type="button" id="alphabeto" class="keys ccolor" value="O" onclick="display.value +='O'; play() ">
+        <input type="button" id="alphabetp" class="keys ccolor" value="P" onclick="display.value +='P'; play() "><br>
+        <input type="button" id="alphabeta" class="keys ccolor" value="A" onclick="display.value +='A'; play() ">
+        <input type="button" id="alphabets" class="keys ccolor" value="S" onclick="display.value +='S'; play() ">
+        <input type="button" id="alphabetd" class="keys ccolor" value="D" onclick="display.value +='D'; play() ">
+        <input type="button" id="alphabetf" class="keys ccolor" value="F" onclick="display.value +='F'; play() ">
+        <input type="button" id="alphabetg" class="keys ccolor" value="G" onclick="display.value +='G'; play() ">
+        <input type="button" id="alphabeth" class="keys ccolor" value="H" onclick="display.value +='H'; play() ">
+        <input type="button" id="alphabetj" class="keys ccolor" value="J" onclick="display.value +='J'; play() ">
+        <input type="button" id="alphabetk" class="keys ccolor" value="K" onclick="display.value +='K'; play() ">
+        <input type="button" id="alphabetl" class="keys ccolor" value="L" onclick="display.value +='L'; play() "><br>
+        <input type="button" id="wide1"class="wide ccolor capslock" value="CAPSLOCK" onclick="caps(); play()">
+        <input type="button" id="alphabetz" class="keys ccolor" value="Z" onclick="display.value +='Z'; play() ">
+        <input type="button" id="alphabetx" class="keys ccolor" value="X" onclick="display.value +='X'; play() ">
+        <input type="button" id="alphabetc" class="keys ccolor" value="C" onclick="display.value +='C'; play() ">
+        <input type="button" id="alphabetv" class="keys ccolor" value="V" onclick="display.value +='V'; play() ">
+        <input type="button" id="alphabetb" class="keys ccolor" value="B" onclick="display.value +='B'; play() ">
+        <input type="button" id="alphabetn" class="keys ccolor" value="N" onclick="display.value +='N'; play() ">
+        <input type="button" id="alphabetm" class="keys ccolor" value="M" onclick="display.value +='M'; play() ">
+        <input type="button" id="wide2"class="wide ccolor" value="BACKSPACE" onclick="display.value = display.value.toString().slice(0,-1); play()"><br>
+        <input type="button" id="wide3"class="wide ccolor" value="!@#%^*" onclick="symbols(); play()">
+        <input type="button" id="key1"class="keys ccolor" value="." onclick="display.value += '.'; play()">
+        <input type="button" id="key2"class="extra-wide ccolor" value="SPACE" onclick="display.value +=' '; play()">
+        <input type="button" id="key3"class="keys ccolor" value="?" onclick="display.value+='?'; play()">
+        <input type="button" id="wide4"class="wide ccolor" value="ENTER" onclick="display.value=''; play()">
+      </div>
+    </div>
+    </form>
+    <audio id="audio" src="click2.mp3"></audio>
+    <script src="./project.js"></script>
+  </body>
+</html>
