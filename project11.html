@@ -81,7 +81,13 @@
         <input type="button" id="alphabetv" class="keys ccolor" value="V" onclick="display.value +='V'; play() ">
         <input type="button" id="alphabetb" class="keys ccolor" value="B" onclick="display.value +='B'; play() ">
         <input type="button" id="alphabetn" class="keys ccolor" value="N" onclick="display.value +='N'; play() ">
-        >
+        <input type="button" id="alphabetm" class="keys ccolor" value="M" onclick="display.value +='M'; play() ">
+        <input type="button" id="wide2"class="wide ccolor" value="BACKSPACE" onclick="display.value = display.value.toString().slice(0,-1); play()"><br>
+        <input type="button" id="wide3"class="wide ccolor" value="!@#%^*" onclick="symbols(); play()">
+        <input type="button" id="key1"class="keys ccolor" value="." onclick="display.value += '.'; play()">
+        <input type="button" id="key2"class="extra-wide ccolor" value="SPACE" onclick="display.value +=' '; play()">
+        <input type="button" id="key3"class="keys ccolor" value="?" onclick="display.value+='?'; play()">
+        <input type="button" id="wide4"class="wide ccolor" value="ENTER" onclick="display.value=''; play()">
       </div>
     </div>
     </form>
