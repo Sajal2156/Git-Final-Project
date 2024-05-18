@@ -39,7 +39,10 @@ var small = false
       }
 
 
-      
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
 
       document.querySelector('.switcher-button').onclick = () => {
         document.getElementsByClassName('.color-switcher').classList.toggle('active'); 
