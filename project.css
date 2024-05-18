@@ -59,24 +59,7 @@
 
 }
 
-.wide {
-    width: 13%;
-    height: 45px;
-    margin: 3px;
-    border-radius: 4px;
-    border: solid black;
-    background: var(--main-color);
-    color: #000000;
-    font-size: 1rem;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    vertical-align: top;
-    padding: 0;
-    position: relative;
-    
 
-}
 
 .extra-wide {
     width: 36%;
